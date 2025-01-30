@@ -8,6 +8,8 @@ environments:
 datasets:
   - path: data
     title: Raw data
+    imported_from:
+      url: https://api.github.com/repos/snakemake/snakemake-tutorial-data/tarball
 figures:
   - path: plots/quals.svg
     title: The figure
