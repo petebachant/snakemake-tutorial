@@ -1,0 +1,6 @@
+outs:
+- md5: 5e3608b84abcc8dea5447eea6b568cd4.dir
+  size: 4403995
+  nfiles: 2
+  hash: md5
+  path: mapped_reads
