@@ -1,0 +1,6 @@
+outs:
+- md5: 9c098a12ceb6b4a9fb9dc9ae61b47b72.dir
+  size: 4372899
+  nfiles: 4
+  hash: md5
+  path: sorted_reads
