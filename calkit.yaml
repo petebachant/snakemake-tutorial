@@ -13,6 +13,7 @@ datasets:
 figures:
   - path: plots/quals.svg
     title: The figure
+    stage: run-snakemake
 showcase:
   - text: "This is the figure generated:"
   - figure: plots/quals.svg
