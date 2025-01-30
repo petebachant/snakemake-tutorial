@@ -1,0 +1,26 @@
+host: Petes-Laptop.local
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count
+-------  -------
+bwa_map        1
+total          1
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Wed Jan 29 13:03:45 2025]
+localrule bwa_map:
+    input: data/genome.fa, data/samples/A.fastq
+    output: mapped_reads/A.bam
+    jobid: 0
+    reason: Missing output files: mapped_reads/A.bam
+    resources: tmpdir=/var/folders/s_/hs4wzl4j51d8tj7v6_cz5s3m0000gn/T
+
+[Wed Jan 29 13:03:46 2025]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: .snakemake/log/2025-01-29T130345.569287.snakemake.log
