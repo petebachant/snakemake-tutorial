@@ -4,6 +4,8 @@ stages:
     deps:
       - scripts
       - data
+      - Snakefile
+      - environment.yaml
     outs:
       - mapped_reads
       - calls:

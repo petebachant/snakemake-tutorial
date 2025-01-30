@@ -3,11 +3,19 @@ stages:
   run-snakemake:
     cmd: calkit xenv -n main -- snakemake
     deps:
+    - path: Snakefile
+      hash: md5
+      md5: 97e23d1be77539c9d7af141d6a5212a3
+      size: 1144
     - path: data
       hash: md5
       md5: 2836f4f1fb9429a7c2237f2f2ee31df1.dir
       size: 17942635
       nfiles: 10
+    - path: environment.yaml
+      hash: md5
+      md5: 399b01ab1aafcedda2648b5c32fc540a
+      size: 388
     - path: scripts
       hash: md5
       md5: 2ff525b3752ca82a75234e8b21190b05.dir
@@ -16,7 +24,7 @@ stages:
     outs:
     - path: calls
       hash: md5
-      md5: c819a16db674de44c032264d03b3e840.dir
+      md5: a2df65185afc9f32affa14df4511c976.dir
       size: 75627
       nfiles: 1
     - path: mapped_reads
@@ -26,7 +34,7 @@ stages:
       nfiles: 2
     - path: plots
       hash: md5
-      md5: cff2bd09f210922f7816cac61f0f5f64.dir
+      md5: 3561b201e9b4e6c90baf5ce66ce177f8.dir
       size: 13450
       nfiles: 1
     - path: sorted_reads
