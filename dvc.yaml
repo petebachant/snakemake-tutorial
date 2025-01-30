@@ -1,0 +1,13 @@
+stages:
+  run-snakemake:
+    cmd: calkit xenv -n main -- snakemake
+    deps:
+      - scripts
+      - data
+    outs:
+      - mapped_reads
+      - calls:
+          cache: false
+      - sorted_reads
+      - plots:
+          cache: false
