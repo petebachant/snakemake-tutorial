@@ -5,3 +5,12 @@ environments:
   main:
     kind: conda
     path: environment.yaml
+datasets:
+  - path: data
+    title: Raw data
+figures:
+  - path: plots/quals.svg
+    title: The figure
+showcase:
+  - text: "This is the figure generated:"
+  - figure: plots/quals.svg
