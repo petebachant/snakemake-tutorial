@@ -1,3 +1,6 @@
+name: snakemake-tutorial
+title: Snakemake tutorial
+git_repo_url: https://github.com/petebachant/snakemake-tutorial
 environments:
   main:
     kind: conda
