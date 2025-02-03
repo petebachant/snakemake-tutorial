@@ -17,3 +17,5 @@ figures:
 showcase:
   - text: "This is the figure generated:"
   - figure: plots/quals.svg
+questions:
+  - Can we use Snakemake to write the pipeline for a Calkit project?
